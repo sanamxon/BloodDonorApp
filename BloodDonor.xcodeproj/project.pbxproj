@@ -12,6 +12,8 @@
 		7274A9801F71CF0A000619C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7274A97E1F71CF0A000619C2 /* Main.storyboard */; };
 		7274A9821F71CF0A000619C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7274A9811F71CF0A000619C2 /* Assets.xcassets */; };
 		7274A9851F71CF0A000619C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7274A9831F71CF0A000619C2 /* LaunchScreen.storyboard */; };
+		7274A98D1F7BB26E000619C2 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7274A98C1F7BB26E000619C2 /* SignInViewController.swift */; };
+		7274A98F1F7BB794000619C2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7274A98E1F7BB794000619C2 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7274A9811F71CF0A000619C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7274A9841F71CF0A000619C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7274A9861F71CF0A000619C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7274A98C1F7BB26E000619C2 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		7274A98E1F7BB794000619C2 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				7274A9811F71CF0A000619C2 /* Assets.xcassets */,
 				7274A9831F71CF0A000619C2 /* LaunchScreen.storyboard */,
 				7274A9861F71CF0A000619C2 /* Info.plist */,
+				7274A98C1F7BB26E000619C2 /* SignInViewController.swift */,
+				7274A98E1F7BB794000619C2 /* SignUpViewController.swift */,
 			);
 			path = BloodDonor;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				7274A97D1F71CF0A000619C2 /* ViewController.swift in Sources */,
 				7274A97B1F71CF0A000619C2 /* AppDelegate.swift in Sources */,
+				7274A98F1F7BB794000619C2 /* SignUpViewController.swift in Sources */,
+				7274A98D1F7BB26E000619C2 /* SignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
